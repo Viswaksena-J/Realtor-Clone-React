@@ -18,7 +18,7 @@ export default function ForgotPassword() {
       await sendPasswordResetEmail(auth, email);
       toast.success("Reset password email sent");
     } catch (error) {
-      toast.error("Could'n send reset password email");
+      toast.error("Could not send reset password email");
     }
   }
 
