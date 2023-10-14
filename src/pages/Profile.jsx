@@ -4,7 +4,6 @@ import { getAuth, updateProfile } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { doc, updateDoc } from "firebase/firestore";
-import { Link, useNavigate } from "react-router-dom";
 import { db } from "../firebase";
 import { FcHome } from "react-icons/fc";
 import { Link } from "react-router-dom";
